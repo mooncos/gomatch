@@ -35,7 +35,7 @@ setup(
     version=parse_version(),
     license="MIT",
     description="GoMatch: a geometric-only matcher for visual localization",
-    long_description=long_description(),
+    long_description="GoMatch Patched",
     long_description_content_type="text/markdown",
     install_requires=[
         "bpnpnet @ git+https://github.com/SergioRAgostinho/bpnpnet.git@package#egg=bpnpnet",
@@ -44,8 +44,8 @@ setup(
         "Pillow",
         "pytorch-lightning",
         "scipy",
-        "torch==1.7.1",
-        "torch-scatter==2.0.6",
+        "torch==2.2.2",
+        "torch-scatter==2.1.2",
         "tqdm",
     ],
     extras_require=dict(
